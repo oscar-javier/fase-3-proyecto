@@ -38,7 +38,7 @@ jobs:
         shell: bash
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install 
 
       - name: Generate system logs
         run: |
@@ -63,4 +63,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: system-logs-${{ matrix.os }}
-          path: logs/
+          path: logs
