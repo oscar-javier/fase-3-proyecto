@@ -1,16 +1,22 @@
 {
   "name": "proyecto-ci-cd",
   "version": "1.0.0",
+  "description": "Proyecto final CI/CD multi-plataforma",
   "main": "src/index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "jest --runInBand",
     "coverage": "jest --coverage",
     "start": "node src/index.js"
   },
   "dependencies": {
-    "winston": "^3.9.0"
+    "winston": "3.9.0"
   },
   "devDependencies": {
-    "jest": "^29.0.0"
-  }
+    "jest": "29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "MIT"
 }
