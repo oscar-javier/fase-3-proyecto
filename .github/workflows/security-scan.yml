@@ -27,7 +27,7 @@ jobs:
           name: audit-report
           path: audit-report.json
 
-  security-check:
+    security-check:
     runs-on: ubuntu-latest
     needs: npm-audit
 
