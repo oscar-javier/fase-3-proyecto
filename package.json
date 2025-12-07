@@ -7,7 +7,8 @@
   "scripts": {
     "test": "jest --runInBand",
     "coverage": "jest --coverage",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "lint": "echo 'No linter configurado, pasando...' && exit 0"
   },
   "dependencies": {
     "winston": "3.9.0"
